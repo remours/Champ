@@ -1,4 +1,4 @@
 window.onload = function() {
-    var audio = document.getElementById('backsound');
+    var audio = document.querySelector('audio');
     audio.play();
 }
