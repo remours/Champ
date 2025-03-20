@@ -14,7 +14,7 @@ body {
 
 .header_text {
     font-size: 3em;
-    color: #d32f2f;
+    color: #ffc906;
 }
 
 .gif_container img {
@@ -32,6 +32,6 @@ audio {
     background-color: #0b132c; /* Warna latar belakang semi-transparan */
     border-radius: 10px; /* Biar gak kotak banget, dikasih округление! */
     padding: 10px; /* Jarak antara tombol dan pinggir audio */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Biar ada efek 3D */
+    box-shadow: 0 4px 8px #00000000; /* Biar ada efek 3D */
     z-index: 999; /* Biar audionya gak ketutupan elemen lain */
 }

@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #d32f2f;
+    background-color: #000000;
     font-family: 'Arial', sans-serif;
 }
 
@@ -14,7 +14,7 @@ body {
 
 .header_text {
     font-size: 3em;
-    color: #FFEB00;
+    color: #d32f2f;
 }
 
 .gif_container img {
@@ -29,9 +29,9 @@ audio {
     left: 50%; /* Posisi horizontal di tengah layar */
     transform: translateX(-50%); /* Ngatur biar bener-bener di tengah */
     width: 400px; /* Lebar audionya, sesuaikan selera! */
-    background-color: rgba(255, 255, 255, 0.7); /* Warna latar belakang semi-transparan */
+    background-color: rgba(255, 255, 255, 0); /* Warna latar belakang semi-transparan */
     border-radius: 10px; /* Biar gak kotak banget, dikasih округление! */
     padding: 10px; /* Jarak antara tombol dan pinggir audio */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Biar ada efek 3D */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0); /* Biar ada efek 3D */
     z-index: 999; /* Biar audionya gak ketutupan elemen lain */
 }

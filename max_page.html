@@ -14,14 +14,8 @@
         </div>
     </div>
 
-    <audio id="myAudio" controls loop>
+    <audio autoplay loop>
         <source src="Anthem/Het Wilhelmus.mp3" type="audio/mpeg">
     </audio>
-    <script>
-        var audio = document.getElementById("myAudio");
-        audio.play().catch(function(error) {
-          console.log("Autoplay dicekal browser! :(", error);
-        });
-      </script>
 </body>
 </html>
