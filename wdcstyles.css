@@ -36,6 +36,7 @@ body {
   .norris-button {
     font-size: 1.5em;
     padding: 10px 20px;
+    margin-right: 10px;
     background-color: #FF8000;
     color: white;
     border: none;
