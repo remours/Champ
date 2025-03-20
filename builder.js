@@ -78,5 +78,5 @@ function handleMcLarenClick() {
 }
 
 function handleFerrariClick() {
-    window.location.href = "ferrari_page.html";
+    window.location.href = "ferrari.html";
 }

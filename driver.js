@@ -78,5 +78,5 @@ function handleNorrisClick() {
 }
 
 function handleMaxClick() {
-    window.location.href = "max_page.html";
+    window.location.href = "max.html";
 }

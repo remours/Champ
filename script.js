@@ -26,9 +26,9 @@
 let messageIndex = 0;
 
 function handleWCCClick() {
-    window.location.href = "wcc.html";
+    window.location.href = "builder.html";
 }
 
 function handleWDCClick() {
-    window.location.href = "wdc.html";
+    window.location.href = "driver.html";
 }
