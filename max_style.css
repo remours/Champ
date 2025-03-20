@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0b132c;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-size: 3em;
+    color: #d32f2f;
+}
+
+.gif_container img {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+}
+
+audio {
+    position: fixed; /* Biar audionya tetep nempel di layar meski di-scroll! */
+    bottom: 20px; /* Jarak dari bawah layar */
+    left: 50%; /* Posisi horizontal di tengah layar */
+    transform: translateX(-50%); /* Ngatur biar bener-bener di tengah */
+    width: 400px; /* Lebar audionya, sesuaikan selera! */
+    background-color: #0b132c; /* Warna latar belakang semi-transparan */
+    border-radius: 10px; /* Biar gak kotak banget, dikasih округление! */
+    padding: 10px; /* Jarak antara tombol dan pinggir audio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Biar ada efek 3D */
+    z-index: 999; /* Biar audionya gak ketutupan elemen lain */
+}
